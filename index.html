@@ -3,10 +3,150 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Stylesheet 2</title>
 </head>
 <body>
-    <h1>커밋 test!</h1>
-    <h2>변경사항1</h2>
+    <style>
+        body{
+            background-color: rgb(201, 74, 60);
+        }
+        .container{
+            
+            margin: 0 auto;
+        }
+        .header{
+            color: white;
+            margin-left: 13px ;
+        }
+        .middle{
+            width: 99%;
+            padding-top: 10px;
+            padding-bottom: 17px;
+            background-color: white;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            padding-left: 10px;
+
+            display: flex;
+            align-items: flex-start;
+            
+        }
+        
+        .middle2{
+            width: 99%;
+            padding-left: 10px;
+            padding-top: 10px;
+            padding-bottom: 5px;
+            color: rgb(201, 74, 60);
+            background-color: rgb(246,218,215);
+        }
+        .footer{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: x-small;
+            text-align: center;
+            width: 98%;
+            color: white;
+            padding-left: 9px;
+            line-height: 1.8;
+        }
+        .link{ 
+            margin-right: 20px;
+            margin-top: 10px;
+            width: 220px;
+            display: flex;
+            flex-direction:column;
+            gap: 6px;
+            
+        }
+
+        .link a, .link p {
+            display: block;
+            border: 1px solid rgb(201,74,60);
+            height: 30px;
+            line-height: 30px;      
+            padding-left: 40px;
+            text-decoration: none;
+            border-radius: 100px;
+        }
+        .link1:hover{
+            background-color: white;
+            color: rgb(201,74,60);
+        }
+        .link1{
+            background-color:  rgb(201, 74, 60);
+            color: white;
+        }
+        .link2{
+            
+            color:  rgb(201, 74, 60);
+            font-weight: bold;
+        }
+        .link3:hover{
+            background-color: white;
+            color: rgb(201,74,60);
+        }
+        .link3{
+            background-color:  rgb(201, 74, 60);
+            color: white;
+        }
+        .link4:hover{
+            background-color: white;
+            color: rgb(201,74,60);
+        }
+        .link4{
+            background-color:  rgb(201, 74, 60);
+            color: white;
+        }
+        .link5:hover{
+            background-color: white;
+            color: rgb(201,74,60);
+        }
+        .link5{
+            background-color:  rgb(201, 74, 60);
+            color: white;
+        }
+    </style>
+
+    <div class="container">
+        <div class = "header">
+            <p style = "font-size:6ch; font-family: Arial, Helvetica, sans-serif ; font-weight: bold; margin-bottom: 0; margin-top: 0;"> Welcome to 이상헌's Homepage 22200514</p>
+            <p style="font-size:3.5ch; font-family: Arial, Helvetica, sans-serif;">Use the menu to select different Stylesheets</p>
+        </div>
+
+        <div class ="middle">
+            <div class="content">
+                <h2 style="color: rgb(201, 74, 60);">Same Page Different Stylesheets</h2>
+                <p style="font-size: small; margin-bottom:0 ;">This is a demonstration of how different stylesheets can change the layout of your HTML page. You can change the layout of this page by selecting different stylesheets in the menu, or by selecting one of the following links:</p>
+                <a href = "style1.html" style="color: rgb(201, 74, 60); text-decoration: none; font-size: small;">Stylesheet1</a>,
+                <a href = "" style="color: rgb(201, 74, 60); text-decoration: none; font-size: small;">Stylesheet2</a>,
+                <a href = "" style="color: rgb(201, 74, 60); text-decoration: none; font-size: small;">Stylesheet3</a>,
+                <a href = "" style="color: rgb(201, 74, 60); text-decoration: none; font-size: small;">Stylesheet4</a>.
+
+                <h3 style="color: rgb(201, 74, 60);">No Styles</h3>
+                <p style="margin-bottom: 0; font-size: small;">This page uses DIV elements to group different sections of the HTML page. Click here to see how the page looks like with no stylesheet:</p>
+                <a href="index.html" style="color: rgb(201, 74, 60); text-decoration: none; font-size: small;">No Stylesheet</a>.
+
+            </div>
+
+            <div class="link">
+                <a href="style1.html" class = "link1">Stylesheet 1</a>
+                <p class = "link2" style="margin-top: 1px; margin-bottom: 1px; ">Stylesheet 2</p>
+                <a href="" class = "link3" >Stylesheet 3</a>
+                <a href="" class = "link4">Stylesheet 4</a>
+                <a href="index.html" class = "link5">No Stylesheet</a>
+            </div>
+        </div>
+
+        <div class = "middle2">
+            <h3 >Side-Bar</h3>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+        </div>
+
+        <div class = "footer">
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+        </div>
+
+    </div>
+    
+    
 </body>
 </html>
