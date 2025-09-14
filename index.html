@@ -3,148 +3,170 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stylesheet 2</title>
+    <title>Stylesheet 1</title>
 </head>
 <body>
     <style>
-        body{
-            background-color: rgb(201, 74, 60);
-        }
         .container{
-            
+            width:97%;
             margin: 0 auto;
+            font-family: Lucida Sans, Verdana;
         }
         .header{
-            color: white;
-            margin-left: 13px ;
-        }
-        .middle{
-            width: 99%;
-            padding-top: 10px;
-            padding-bottom: 17px;
-            background-color: white;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            padding-left: 10px;
 
-            display: flex;
-            align-items: flex-start;
             
+            width: 100%;
+            background-color:rgba(50, 157, 86, 0.879);
+            border-radius: 5px;
+            margin-top: 20px; 
+            margin-bottom: 0px;
+            padding-bottom: 24px;
+            
+            box-sizing: border-box;
+        }
+        .side_button{
+            float: left;
+            width: 185px;
+        }
+        .SS1{
+                height:32px;
+                width: 185px;
+                margin-top: -10px;
+                border-color: rgb(229, 226, 226);
+                background-color: rgba(50, 157, 86, 0.879);
+                border-radius: 5px;
+                padding-left: 10px;     
+            }
+        
+        .SS2{
+            height:32px;
+            width: 185px;
+            background-color: rgb(237, 237, 237);
+            padding-left: 10px; 
+            
+            margin-top: 6px;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            
+        }
+        .SS2:hover{
+            background-color: rgb(226, 226, 226);
+        }
+
+        .SS3{
+            height:32px;
+            width: 185px;
+            background-color: rgb(237, 237, 237);
+            padding-left: 10px;  
+            margin-top: -10px;
+            border-radius: 5px;
+        }
+        .SS4{
+            height:32px;
+            width: 185px;
+            background-color: rgb(237, 237, 237);
+            padding-left: 10px;  
+            margin-top: -10px;
+            border-radius: 5px;
+        }
+        .nostyle{
+            height:32px;
+            width: 185px;
+            background-color: rgb(237, 237, 237);
+            padding-left: 10px;  
+            margin-top: 6px;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+        }
+        .nostyle:hover{
+            background-color: rgb(226, 226, 226);
+        }
+        .text1{
+            width: 67%;
+            position:absolute;
+            left:250px;
+            top: 115px
+        }
+        .text2{
+            width: 185px;
+            height: 340px;
+            background-color: rgb(50, 164, 231);
+            position: absolute;
+            left:1303px;
+            top: 116px;
+            text-align: left;
+            border-radius: 5px;
+            line-height: 1.6;
+            padding-left: 10px
+        }
+        .text3{
+            position: absolute;
+            width: 95.4%;
+            height: 9%;
+            background-color: rgb(237, 237, 237);
+            top: 463px;
+            left: 30px;
+            border-radius: 5px;
+            border: 1px solid rgb(200, 200, 200);
+            padding-left: 10px;
+            text-align: center;
         }
         
-        .middle2{
-            width: 99%;
-            padding-left: 10px;
-            padding-top: 10px;
-            padding-bottom: 5px;
-            color: rgb(201, 74, 60);
-            background-color: rgb(246,218,215);
-        }
-        .footer{
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: x-small;
-            text-align: center;
-            width: 98%;
-            color: white;
-            padding-left: 9px;
-            line-height: 1.8;
-        }
-        .link{ 
-            margin-right: 20px;
-            margin-top: 10px;
-            width: 220px;
-            display: flex;
-            flex-direction:column;
-            gap: 6px;
-            
-        }
-
-        .link a, .link p {
-            display: block;
-            border: 1px solid rgb(201,74,60);
-            height: 30px;
-            line-height: 30px;      
-            padding-left: 40px;
-            text-decoration: none;
-            border-radius: 100px;
-        }
-        .link1:hover{
-            background-color: white;
-            color: rgb(201,74,60);
-        }
-        .link1{
-            background-color:  rgb(201, 74, 60);
-            color: white;
-        }
-        .link2{
-            
-            color:  rgb(201, 74, 60);
-            font-weight: bold;
-        }
-        .link3:hover{
-            background-color: white;
-            color: rgb(201,74,60);
-        }
-        .link3{
-            background-color:  rgb(201, 74, 60);
-            color: white;
-        }
-        .link4:hover{
-            background-color: white;
-            color: rgb(201,74,60);
-        }
-        .link4{
-            background-color:  rgb(201, 74, 60);
-            color: white;
-        }
-        .link5:hover{
-            background-color: white;
-            color: rgb(201,74,60);
-        }
-        .link5{
-            background-color:  rgb(201, 74, 60);
-            color: white;
-        }
+        
     </style>
 
-    <div class="container">
-        <div class = "header">
-            <p style = "font-size:6ch; font-family: Arial, Helvetica, sans-serif ; font-weight: bold; margin-bottom: 0; margin-top: 0;"> Welcome to 이상헌's Homepage 22200514</p>
-            <p style="font-size:3.5ch; font-family: Arial, Helvetica, sans-serif;">Use the menu to select different Stylesheets</p>
+    <div class = "container">
+        <div class="header">
+            <h1 style="margin:0; color: white; text-align: left;padding-left: 10px;">Welcome to 이상헌's Homepage 22200514</h1>
+            <p style="margin:0; color: white; text-align: left;padding-left: 10px;">Use the menu to select different Stylesheets</p>
         </div>
-
-        <div class ="middle">
-            <div class="content">
-                <h2 style="color: rgb(201, 74, 60);">Same Page Different Stylesheets</h2>
-                <p style="font-size: small; margin-bottom:0 ;">This is a demonstration of how different stylesheets can change the layout of your HTML page. You can change the layout of this page by selecting different stylesheets in the menu, or by selecting one of the following links:</p>
-                <a href = "style1.html" style="color: rgb(201, 74, 60); text-decoration: none; font-size: small;">Stylesheet1</a>,
-                <a href = "" style="color: rgb(201, 74, 60); text-decoration: none; font-size: small;">Stylesheet2</a>,
-                <a href = "" style="color: rgb(201, 74, 60); text-decoration: none; font-size: small;">Stylesheet3</a>,
-                <a href = "" style="color: rgb(201, 74, 60); text-decoration: none; font-size: small;">Stylesheet4</a>.
-
-                <h3 style="color: rgb(201, 74, 60);">No Styles</h3>
-                <p style="margin-bottom: 0; font-size: small;">This page uses DIV elements to group different sections of the HTML page. Click here to see how the page looks like with no stylesheet:</p>
-                <a href="index.html" style="color: rgb(201, 74, 60); text-decoration: none; font-size: small;">No Stylesheet</a>.
-
+        <div class="side_button">
+            <div class = "SS1">
+                <p style="color: rgb(255, 255, 255);text-align: left; padding-top: 5px;">Stylesheet 1</p>
             </div>
 
-            <div class="link">
-                <a href="style1.html" class = "link1">Stylesheet 1</a>
-                <p class = "link2" style="margin-top: 1px; margin-bottom: 1px; ">Stylesheet 2</p>
-                <a href="" class = "link3" >Stylesheet 3</a>
-                <a href="" class = "link4">Stylesheet 4</a>
-                <a href="index.html" class = "link5">No Stylesheet</a>
+            <div class = "SS2">
+                <a href = "style2.html" style="color: rgb(0, 0, 0);text-align: left; text-decoration: none;">Stylesheet 2</a>
+            </div>
+
+            <div class = "SS3">
+                <p style="color: rgb(0, 0, 0);text-align: left; padding-top: 5px;">Stylesheet 3</p>
+            </div>
+
+            <div class = "SS4">
+                <p style="color: rgb(0, 0, 0);text-align: left; padding-top: 5px;">Stylesheet 4</p>
+            </div>
+
+            <div class = "nostyle">
+                <a href = "index.html" style="color: rgb(0, 0, 0);text-align: left; padding-top: 5px;text-decoration: none;">No Stylesheet</a>
             </div>
         </div>
 
-        <div class = "middle2">
-            <h3 >Side-Bar</h3>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+        <div class = "text1">
+            <h1>Same Page Different Stylesheets</h1>
+            <p style="line-height: 1.6;">This is a demonstration of how different stylesheets can change the layout of your HTML page. You can change the layout of this page by selecting different stylesheets in the menu, or by selecting one of the following links:</p>
+            <a href="http://127.0.0.1:5500/opensource/assignment/hw1/style1.html">Stylesheet1</a>
+            <a href="http://127.0.0.1:5500/opensource/assignment/hw1/style2.html">Stylesheet2</a>
+            <a href="http://127.0.0.1:5500/opensource/assignment/hw1/style1.html">Stylesheet1</a>
+            <a href="http://127.0.0.1:5500/opensource/assignment/hw1/style2.html">Stylesheet2</a>
+            <h2>No Styles</h2>
+            <p style="line-height: 1.6;">This page uses DIV elements to group different sections of the HTML page. Click here to see how the page looks like with no stylesheet:</p>
+            <a href="http://127.0.0.1:5500/opensource/assignment/hw1/index.html">No Stylesheet</a>.
+            
         </div>
 
-        <div class = "footer">
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+        <div class = "text2">
+            <h3 style="color: white;">Side-Bar</h3>
+            <p style="color: white;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
         </div>
+        
+        <div class = "text3">
+            <p style="font-size:x-small;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
 
+        </div>
+        
     </div>
     
     
